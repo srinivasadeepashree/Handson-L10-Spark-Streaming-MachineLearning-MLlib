@@ -67,6 +67,7 @@ python3 task5.py
 ## Folder Structure
 
 Root Folder:
+
 ├── task4.py              # Real-time fare prediction logic
 
 ├── task5.py              # Time-windowed fare trend prediction logic
