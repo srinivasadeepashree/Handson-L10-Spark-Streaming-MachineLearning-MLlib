@@ -27,7 +27,7 @@ In this hands-on, you will implement a real-time analytics pipeline for ride-sha
 3. Run the script:
 
 ```
-python task4.py
+python3 task4.py
 ```
 
 4. Console output displays ride details, predicted fare, and deviation.
@@ -53,7 +53,7 @@ python task4.py
 3. Run the script:
 
 ```
-python task5.py
+python3 task5.py
 ```
 
 4. Console output shows fare trends over time windows.
@@ -66,9 +66,9 @@ python task5.py
 
 ## Folder Structure
 
-- Root folder:
-  - `task4.py` – Real-time fare prediction logic
-  - `task5.py` – Time-windowed fare trend prediction logic
-  - `models/` – Stores trained model files
-  - `training-dataset.csv`
-  - `README.md` (this file)
+Root Folder:
+├── task4.py              # Real-time fare prediction logic
+├── task5.py              # Time-windowed fare trend prediction logic
+├── models/               # Stores trained Spark MLlib models
+├── training-dataset.csv  # Dataset for model training
+└── README.md             # Documentation file
