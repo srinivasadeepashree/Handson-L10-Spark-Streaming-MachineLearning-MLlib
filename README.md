@@ -68,7 +68,11 @@ python3 task5.py
 
 Root Folder:
 ├── task4.py              # Real-time fare prediction logic
+
 ├── task5.py              # Time-windowed fare trend prediction logic
+
 ├── models/               # Stores trained Spark MLlib models
+
 ├── training-dataset.csv  # Dataset for model training
+
 └── README.md             # Documentation file
