@@ -1,6 +1,6 @@
 # Handson-L10-Spark-Streaming-MachineLearning-MLlib
 
-In this handson, you will implement a real-time analytics pipeline for ride-sharing data. The pipeline involves ingesting simulated streaming data, training and using regression models with Spark MLlib, and performing both per-ride and time-windowed predictive analytics.
+In this hands-on, you will implement a real-time analytics pipeline for ride-sharing data. The pipeline involves ingesting simulated streaming data, training and using regression models with Spark MLlib, and performing both per-ride and time-windowed predictive analytics.
 
 - `task4.py`: Real-Time Fare Prediction Using MLlib Regression
 - `task5.py`: Time-Based Fare Trend Prediction
@@ -36,6 +36,8 @@ python task4.py
 
 - `tripid`, `driverid`, `distancekm`, `fareamount`, `predictedfare`, `deviation`
 
+<img width="777" height="125" alt="Screenshot 2025-10-22 at 6 23 14 PM" src="https://github.com/user-attachments/assets/f2aa3f50-a917-4b49-a3d6-bbddfe18bcdd" />
+
 ## Task 5: Time-Based Fare Trend Prediction
 
 ### Functionality
@@ -59,6 +61,8 @@ python task5.py
 ### Key Output Columns
 
 - `windowstart`, `windowend`, `avgfare`, `predictednextavgfare`
+
+<img width="613" height="125" alt="Screenshot 2025-10-22 at 6 45 33 PM" src="https://github.com/user-attachments/assets/1a5dfe8e-439d-4697-9695-f355d8a39b8f" />
 
 ## Folder Structure
 
